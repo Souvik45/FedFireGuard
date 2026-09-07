@@ -1,0 +1,27 @@
+# Base configuration for FedFireGuard simulation & pipeline
+seed: 42
+
+simulation:
+  num_nodes: 8
+  num_zones: 2
+  time_steps: 240  # 10 days of hourly data for fast iteration
+  sampling_rate_mins: 60
+  features:
+    - temperature
+    - humidity
+    - wind_speed
+    - wind_direction
+    - co2
+    - pm25
+    - soil_moisture
+
+paths:
+  data_dir: "data"
+  logs_dir: "logs"
+  outputs_dir: "outputs"
+  models_dir: "models"
+
+hardware_simulation:
+  target_device: "cortex_m4"  # Simulated MCU target for TinyML benchmarking
+  cpu_freq_mhz: 120
+  memory_limit_kb: 256

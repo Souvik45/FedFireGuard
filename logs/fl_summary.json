@@ -1,0 +1,227 @@
+{
+  "config": {
+    "num_nodes": 6,
+    "num_zones": 2,
+    "num_rounds": 15,
+    "local_epochs": 5,
+    "hidden_dim": 32,
+    "seed": 42
+  },
+  "final_metrics": {
+    "f1_score": 1.0,
+    "divergence_zone_clustered": 0.001704,
+    "divergence_standard_fedavg": 0.001675,
+    "bandwidth_reduction_%": 89.4,
+    "total_training_time_s": 53.67,
+    "model_parameters": 31879
+  },
+  "privacy_summary": [
+    {
+      "node_id": 0,
+      "zone_id": 0,
+      "land_type": "protected",
+      "sensitivity_score": 0.9,
+      "current_epsilon": 0.6844,
+      "cumulative_epsilon": 10.266,
+      "budget_remaining": 39.734,
+      "budget_exhausted": false,
+      "rounds_participated": 15
+    },
+    {
+      "node_id": 1,
+      "zone_id": 1,
+      "land_type": "open",
+      "sensitivity_score": 0.0889,
+      "current_epsilon": 5.0,
+      "cumulative_epsilon": 50.0,
+      "budget_remaining": 0.0,
+      "budget_exhausted": true,
+      "rounds_participated": 10
+    },
+    {
+      "node_id": 2,
+      "zone_id": 0,
+      "land_type": "protected",
+      "sensitivity_score": 0.9,
+      "current_epsilon": 0.6018,
+      "cumulative_epsilon": 9.027,
+      "budget_remaining": 40.973,
+      "budget_exhausted": false,
+      "rounds_participated": 15
+    },
+    {
+      "node_id": 3,
+      "zone_id": 1,
+      "land_type": "open",
+      "sensitivity_score": 0.1238,
+      "current_epsilon": 0.0,
+      "cumulative_epsilon": 50.0,
+      "budget_remaining": 0.0,
+      "budget_exhausted": false,
+      "rounds_participated": 15
+    },
+    {
+      "node_id": 4,
+      "zone_id": 0,
+      "land_type": "protected",
+      "sensitivity_score": 0.9,
+      "current_epsilon": 0.6018,
+      "cumulative_epsilon": 9.027,
+      "budget_remaining": 40.973,
+      "budget_exhausted": false,
+      "rounds_participated": 15
+    },
+    {
+      "node_id": 5,
+      "zone_id": 1,
+      "land_type": "open",
+      "sensitivity_score": 0.0894,
+      "current_epsilon": 3.469,
+      "cumulative_epsilon": 50.0,
+      "budget_remaining": -0.0,
+      "budget_exhausted": true,
+      "rounds_participated": 11
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "mean_loss": 1.0028,
+      "divergence_zone": 0.002287,
+      "divergence_baseline": 0.002345,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 4.39
+    },
+    {
+      "round": 2,
+      "mean_loss": 0.9881,
+      "divergence_zone": 0.003086,
+      "divergence_baseline": 0.002967,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.23
+    },
+    {
+      "round": 3,
+      "mean_loss": 0.898,
+      "divergence_zone": 0.00248,
+      "divergence_baseline": 0.002496,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.18
+    },
+    {
+      "round": 4,
+      "mean_loss": 0.7869,
+      "divergence_zone": 0.00214,
+      "divergence_baseline": 0.002081,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.12
+    },
+    {
+      "round": 5,
+      "mean_loss": 0.7026,
+      "divergence_zone": 0.00237,
+      "divergence_baseline": 0.002363,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.33
+    },
+    {
+      "round": 6,
+      "mean_loss": 0.6505,
+      "divergence_zone": 0.002371,
+      "divergence_baseline": 0.002362,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.23
+    },
+    {
+      "round": 7,
+      "mean_loss": 0.6085,
+      "divergence_zone": 0.002116,
+      "divergence_baseline": 0.002125,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.26
+    },
+    {
+      "round": 8,
+      "mean_loss": 0.5741,
+      "divergence_zone": 0.002152,
+      "divergence_baseline": 0.002063,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.21
+    },
+    {
+      "round": 9,
+      "mean_loss": 0.5489,
+      "divergence_zone": 0.002007,
+      "divergence_baseline": 0.00204,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.21
+    },
+    {
+      "round": 10,
+      "mean_loss": 0.5273,
+      "divergence_zone": 0.001936,
+      "divergence_baseline": 0.001971,
+      "f1_score": 1.0,
+      "mean_epsilon": 2.67,
+      "round_time_s": 2.31
+    },
+    {
+      "round": 11,
+      "mean_loss": 0.5116,
+      "divergence_zone": 0.001909,
+      "divergence_baseline": 0.001913,
+      "f1_score": 1.0,
+      "mean_epsilon": 1.968,
+      "round_time_s": 2.2
+    },
+    {
+      "round": 12,
+      "mean_loss": 0.4962,
+      "divergence_zone": 0.001846,
+      "divergence_baseline": 0.001849,
+      "f1_score": 1.0,
+      "mean_epsilon": 0.648,
+      "round_time_s": 2.27
+    },
+    {
+      "round": 13,
+      "mean_loss": 0.4822,
+      "divergence_zone": 0.001822,
+      "divergence_baseline": 0.001798,
+      "f1_score": 1.0,
+      "mean_epsilon": 0.472,
+      "round_time_s": 7.05
+    },
+    {
+      "round": 14,
+      "mean_loss": 0.472,
+      "divergence_zone": 0.001757,
+      "divergence_baseline": 0.00173,
+      "f1_score": 1.0,
+      "mean_epsilon": 0.472,
+      "round_time_s": 8.74
+    },
+    {
+      "round": 15,
+      "mean_loss": 0.4605,
+      "divergence_zone": 0.001704,
+      "divergence_baseline": 0.001675,
+      "f1_score": 1.0,
+      "mean_epsilon": 0.472,
+      "round_time_s": 8.81
+    }
+  ],
+  "log_paths": {
+    "fl_divergence": "logs\\fl_divergence_history.json",
+    "privacy_utility": "logs\\privacy_utility_curve.csv"
+  }
+}

@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: fedfireguard
+Version: 0.1.0
+Summary: Privacy-Preserving Federated Learning with Reinforcement-Driven Alerting for Real-Time Wildfire Risk Detection Across Distributed IoT Sensor Networks
+Author: Research Team
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision>=0.15.0
+Requires-Dist: torch-geometric>=2.3.0
+Requires-Dist: flwr>=1.7.0
+Requires-Dist: opacus>=1.4.0
+Requires-Dist: stable-baselines3>=2.2.0
+Requires-Dist: gymnasium>=0.29.0
+Requires-Dist: shap>=0.43.0
+Requires-Dist: streamlit>=1.28.0
+Requires-Dist: plotly>=5.17.0
+Requires-Dist: pandas>=2.1.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pyarrow>=14.0.0
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: hydra-core>=1.3.2
+Requires-Dist: pydantic>=2.4.0
+Requires-Dist: tqdm>=4.66.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: flake8>=6.1.0; extra == "dev"
+Requires-Dist: black>=23.9.0; extra == "dev"
+Requires-Dist: mypy>=1.6.0; extra == "dev"
+
+# FedFireGuard
+
+**Privacy-Preserving Federated Learning with Reinforcement-Driven Alerting for Real-Time Wildfire Risk Detection Across Distributed IoT Sensor Networks**
+
+FedFireGuard is a research-grade software prototype demonstrating:
+1. **Non-IID Federated Learning**: A zone-clustered FedAvg variant addressing spatial microclimate heterogeneities.
+2. **Adaptive Differential Privacy**: A spatial $\epsilon$-scheduling mechanism adjusting privacy budgets by land ownership sensitivity.
+3. **PPO Alerting Agent Under Partial Observability**: Reinforcement learning dispatch operating over a GNN-encoded fire belief map with masked offline sensors.
+
+## Setup & Testing
+This project uses Python 3.11 with `pyproject.toml`.
+
+To install in editable mode with development testing tools:
+```bash
+pip install -e .[dev]
+```
+
+To run unit tests:
+```bash
+pytest
+```

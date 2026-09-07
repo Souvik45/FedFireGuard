@@ -1,0 +1,5 @@
+name,f1,auc,delay,fa,divergence
+Full FedFireGuard Architecture,0.894,0.942,2.1,3.8,0.0077
+Ablation A: w/o Clustered FedAvg (Standard FL),0.741,0.812,5.4,11.2,0.2031
+Ablation B: w/o Spatio-Temporal GNN Beliefs,0.768,0.835,4.8,14.6,0.0081
+Ablation C: w/o PPO RL Alerting (Static Heuristic),0.823,0.91,6.2,8.9,0.0077

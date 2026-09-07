@@ -1,0 +1,182 @@
+[
+  {
+    "round": 1,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.002287,
+    "mean_loss": 1.002827
+  },
+  {
+    "round": 1,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002345,
+    "mean_loss": 1.002827
+  },
+  {
+    "round": 2,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.003086,
+    "mean_loss": 0.988068
+  },
+  {
+    "round": 2,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002967,
+    "mean_loss": 0.988068
+  },
+  {
+    "round": 3,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.00248,
+    "mean_loss": 0.89799
+  },
+  {
+    "round": 3,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002496,
+    "mean_loss": 0.89799
+  },
+  {
+    "round": 4,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.00214,
+    "mean_loss": 0.786912
+  },
+  {
+    "round": 4,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002081,
+    "mean_loss": 0.786912
+  },
+  {
+    "round": 5,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.00237,
+    "mean_loss": 0.702578
+  },
+  {
+    "round": 5,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002363,
+    "mean_loss": 0.702578
+  },
+  {
+    "round": 6,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.002371,
+    "mean_loss": 0.650535
+  },
+  {
+    "round": 6,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002362,
+    "mean_loss": 0.650535
+  },
+  {
+    "round": 7,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.002116,
+    "mean_loss": 0.608546
+  },
+  {
+    "round": 7,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002125,
+    "mean_loss": 0.608546
+  },
+  {
+    "round": 8,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.002152,
+    "mean_loss": 0.574103
+  },
+  {
+    "round": 8,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.002063,
+    "mean_loss": 0.574103
+  },
+  {
+    "round": 9,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.002007,
+    "mean_loss": 0.548871
+  },
+  {
+    "round": 9,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.00204,
+    "mean_loss": 0.548871
+  },
+  {
+    "round": 10,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.001936,
+    "mean_loss": 0.527324
+  },
+  {
+    "round": 10,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.001971,
+    "mean_loss": 0.527324
+  },
+  {
+    "round": 11,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.001909,
+    "mean_loss": 0.51157
+  },
+  {
+    "round": 11,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.001913,
+    "mean_loss": 0.51157
+  },
+  {
+    "round": 12,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.001846,
+    "mean_loss": 0.496197
+  },
+  {
+    "round": 12,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.001849,
+    "mean_loss": 0.496197
+  },
+  {
+    "round": 13,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.001822,
+    "mean_loss": 0.482213
+  },
+  {
+    "round": 13,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.001798,
+    "mean_loss": 0.482213
+  },
+  {
+    "round": 14,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.001757,
+    "mean_loss": 0.472028
+  },
+  {
+    "round": 14,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.00173,
+    "mean_loss": 0.472028
+  },
+  {
+    "round": 15,
+    "strategy": "ZoneClustered",
+    "mean_divergence": 0.001704,
+    "mean_loss": 0.460464
+  },
+  {
+    "round": 15,
+    "strategy": "StandardFedAvg",
+    "mean_divergence": 0.001675,
+    "mean_loss": 0.460464
+  }
+]

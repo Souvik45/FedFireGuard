@@ -1,0 +1,6 @@
+System Configuration,Mean F1 Score,Mean ROC-AUC,Detection Delay (Steps),False Alarm Rate (%),CPU Latency (ms),Network Bandwidth (KB/round)
+Baseline 1: Centralized LSTM (Raw Cloud),0.201,,0.0,76.67,3.2,1275.0
+Baseline 2: Standard FedAvg (McMahan),0.201,,0.0,76.42,3.2,102.0
+Baseline 3: Legacy Threshold Rules,0.366,,7.6,12.42,3.07,2.4
+Baseline 4: Static Policy over GNN,0.216,,0.0,62.08,5.8,127.5
+Full FedFireGuard (Clustered FL+GNN+PPO),0.25,,1.6,19.75,5.8,127.5

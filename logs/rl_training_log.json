@@ -1,0 +1,362 @@
+[
+  {
+    "update": 1,
+    "steps": 512,
+    "policy_loss": 0.0063,
+    "value_loss": 14779.6784,
+    "entropy": 1.2928,
+    "mean_reward": -355.8,
+    "alert_accuracy": 0.284
+  },
+  {
+    "update": 2,
+    "steps": 1024,
+    "policy_loss": 0.0045,
+    "value_loss": 12606.1596,
+    "entropy": 1.3152,
+    "mean_reward": -263.0,
+    "alert_accuracy": 0.276
+  },
+  {
+    "update": 3,
+    "steps": 1536,
+    "policy_loss": 0.008,
+    "value_loss": 10202.8411,
+    "entropy": 1.2779,
+    "mean_reward": -310.0,
+    "alert_accuracy": 0.2
+  },
+  {
+    "update": 4,
+    "steps": 2048,
+    "policy_loss": -0.0033,
+    "value_loss": 7892.3112,
+    "entropy": 1.2524,
+    "mean_reward": -247.8,
+    "alert_accuracy": 0.244
+  },
+  {
+    "update": 5,
+    "steps": 2560,
+    "policy_loss": 0.0021,
+    "value_loss": 10113.1581,
+    "entropy": 1.2815,
+    "mean_reward": -348.0,
+    "alert_accuracy": 0.212
+  },
+  {
+    "update": 6,
+    "steps": 3072,
+    "policy_loss": -0.0049,
+    "value_loss": 6885.4871,
+    "entropy": 1.2767,
+    "mean_reward": -254.2,
+    "alert_accuracy": 0.284
+  },
+  {
+    "update": 7,
+    "steps": 3584,
+    "policy_loss": -0.0038,
+    "value_loss": 8234.3647,
+    "entropy": 1.3008,
+    "mean_reward": -302.6,
+    "alert_accuracy": 0.24
+  },
+  {
+    "update": 8,
+    "steps": 4096,
+    "policy_loss": -0.0046,
+    "value_loss": 4809.5964,
+    "entropy": 1.2861,
+    "mean_reward": -270.0,
+    "alert_accuracy": 0.256
+  },
+  {
+    "update": 9,
+    "steps": 4608,
+    "policy_loss": -0.0022,
+    "value_loss": 4466.5209,
+    "entropy": 1.252,
+    "mean_reward": -266.8,
+    "alert_accuracy": 0.24
+  },
+  {
+    "update": 10,
+    "steps": 5120,
+    "policy_loss": 0.0053,
+    "value_loss": 3147.1148,
+    "entropy": 1.2356,
+    "mean_reward": -283.0,
+    "alert_accuracy": 0.256
+  },
+  {
+    "update": 11,
+    "steps": 5632,
+    "policy_loss": 0.0029,
+    "value_loss": 3953.0735,
+    "entropy": 1.2622,
+    "mean_reward": -338.6,
+    "alert_accuracy": 0.232
+  },
+  {
+    "update": 12,
+    "steps": 6144,
+    "policy_loss": 0.0023,
+    "value_loss": 4304.9489,
+    "entropy": 1.216,
+    "mean_reward": -185.4,
+    "alert_accuracy": 0.348
+  },
+  {
+    "update": 13,
+    "steps": 6656,
+    "policy_loss": 0.0036,
+    "value_loss": 3914.1146,
+    "entropy": 1.1812,
+    "mean_reward": -319.6,
+    "alert_accuracy": 0.252
+  },
+  {
+    "update": 14,
+    "steps": 7168,
+    "policy_loss": -0.0003,
+    "value_loss": 4268.802,
+    "entropy": 1.2144,
+    "mean_reward": -311.2,
+    "alert_accuracy": 0.216
+  },
+  {
+    "update": 15,
+    "steps": 7680,
+    "policy_loss": -0.0014,
+    "value_loss": 3363.5637,
+    "entropy": 1.2095,
+    "mean_reward": -261.0,
+    "alert_accuracy": 0.236
+  },
+  {
+    "update": 16,
+    "steps": 8192,
+    "policy_loss": -0.0019,
+    "value_loss": 3897.8909,
+    "entropy": 1.2289,
+    "mean_reward": -321.8,
+    "alert_accuracy": 0.228
+  },
+  {
+    "update": 17,
+    "steps": 8704,
+    "policy_loss": 0.002,
+    "value_loss": 3331.2586,
+    "entropy": 1.1725,
+    "mean_reward": -307.0,
+    "alert_accuracy": 0.196
+  },
+  {
+    "update": 18,
+    "steps": 9216,
+    "policy_loss": -0.0007,
+    "value_loss": 3572.7353,
+    "entropy": 1.1669,
+    "mean_reward": -266.0,
+    "alert_accuracy": 0.248
+  },
+  {
+    "update": 19,
+    "steps": 9728,
+    "policy_loss": -0.0123,
+    "value_loss": 3160.9581,
+    "entropy": 1.2007,
+    "mean_reward": -212.2,
+    "alert_accuracy": 0.272
+  },
+  {
+    "update": 20,
+    "steps": 10240,
+    "policy_loss": -0.0073,
+    "value_loss": 4313.6285,
+    "entropy": 1.181,
+    "mean_reward": -275.0,
+    "alert_accuracy": 0.304
+  },
+  {
+    "update": 21,
+    "steps": 10752,
+    "policy_loss": -0.003,
+    "value_loss": 4134.7849,
+    "entropy": 1.1907,
+    "mean_reward": -269.2,
+    "alert_accuracy": 0.26
+  },
+  {
+    "update": 22,
+    "steps": 11264,
+    "policy_loss": -0.0043,
+    "value_loss": 3950.8442,
+    "entropy": 1.1967,
+    "mean_reward": -285.6,
+    "alert_accuracy": 0.28
+  },
+  {
+    "update": 23,
+    "steps": 11776,
+    "policy_loss": 0.0032,
+    "value_loss": 2993.8607,
+    "entropy": 1.1581,
+    "mean_reward": -164.6,
+    "alert_accuracy": 0.392
+  },
+  {
+    "update": 24,
+    "steps": 12288,
+    "policy_loss": 0.0014,
+    "value_loss": 2695.1798,
+    "entropy": 1.1808,
+    "mean_reward": -216.6,
+    "alert_accuracy": 0.344
+  },
+  {
+    "update": 25,
+    "steps": 12800,
+    "policy_loss": -0.0094,
+    "value_loss": 3335.0099,
+    "entropy": 1.1128,
+    "mean_reward": -277.6,
+    "alert_accuracy": 0.296
+  },
+  {
+    "update": 26,
+    "steps": 13312,
+    "policy_loss": 0.006,
+    "value_loss": 2986.3971,
+    "entropy": 1.1552,
+    "mean_reward": -183.0,
+    "alert_accuracy": 0.376
+  },
+  {
+    "update": 27,
+    "steps": 13824,
+    "policy_loss": -0.0021,
+    "value_loss": 4103.6409,
+    "entropy": 1.1416,
+    "mean_reward": -347.6,
+    "alert_accuracy": 0.252
+  },
+  {
+    "update": 28,
+    "steps": 14336,
+    "policy_loss": -0.0041,
+    "value_loss": 3979.9444,
+    "entropy": 1.1276,
+    "mean_reward": -244.0,
+    "alert_accuracy": 0.312
+  },
+  {
+    "update": 29,
+    "steps": 14848,
+    "policy_loss": -0.0052,
+    "value_loss": 3016.5245,
+    "entropy": 1.1571,
+    "mean_reward": -233.6,
+    "alert_accuracy": 0.344
+  },
+  {
+    "update": 30,
+    "steps": 15360,
+    "policy_loss": -0.0002,
+    "value_loss": 2403.5812,
+    "entropy": 1.1611,
+    "mean_reward": -154.8,
+    "alert_accuracy": 0.396
+  },
+  {
+    "update": 31,
+    "steps": 15872,
+    "policy_loss": -0.0016,
+    "value_loss": 2261.2934,
+    "entropy": 1.1236,
+    "mean_reward": -185.8,
+    "alert_accuracy": 0.36
+  },
+  {
+    "update": 32,
+    "steps": 16384,
+    "policy_loss": -0.0026,
+    "value_loss": 2907.72,
+    "entropy": 1.1146,
+    "mean_reward": -190.6,
+    "alert_accuracy": 0.372
+  },
+  {
+    "update": 33,
+    "steps": 16896,
+    "policy_loss": -0.0022,
+    "value_loss": 2111.813,
+    "entropy": 1.1461,
+    "mean_reward": -191.0,
+    "alert_accuracy": 0.332
+  },
+  {
+    "update": 34,
+    "steps": 17408,
+    "policy_loss": -0.0086,
+    "value_loss": 2208.9687,
+    "entropy": 1.0495,
+    "mean_reward": -172.6,
+    "alert_accuracy": 0.372
+  },
+  {
+    "update": 35,
+    "steps": 17920,
+    "policy_loss": 0.0003,
+    "value_loss": 1804.8814,
+    "entropy": 1.0763,
+    "mean_reward": -163.6,
+    "alert_accuracy": 0.372
+  },
+  {
+    "update": 36,
+    "steps": 18432,
+    "policy_loss": -0.0018,
+    "value_loss": 1883.1306,
+    "entropy": 0.9703,
+    "mean_reward": -201.0,
+    "alert_accuracy": 0.34
+  },
+  {
+    "update": 37,
+    "steps": 18944,
+    "policy_loss": 0.0132,
+    "value_loss": 1167.181,
+    "entropy": 1.0051,
+    "mean_reward": -105.4,
+    "alert_accuracy": 0.404
+  },
+  {
+    "update": 38,
+    "steps": 19456,
+    "policy_loss": 0.0003,
+    "value_loss": 1220.1505,
+    "entropy": 0.9606,
+    "mean_reward": -76.8,
+    "alert_accuracy": 0.44
+  },
+  {
+    "update": 39,
+    "steps": 19968,
+    "policy_loss": -0.0114,
+    "value_loss": 1216.0548,
+    "entropy": 0.9055,
+    "mean_reward": -98.0,
+    "alert_accuracy": 0.404
+  },
+  {
+    "update": 40,
+    "steps": 20480,
+    "policy_loss": -0.0019,
+    "value_loss": 1205.9026,
+    "entropy": 0.8572,
+    "mean_reward": -55.2,
+    "alert_accuracy": 0.464
+  }
+]
